@@ -1,40 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
-/* CSS RESET */
-* {
-  padding: 0;
-  border: 0;
-  margin: 0;
-}
-a {text-decoration: none;}
-li {list-style: none;}
-  input {
-  appearance: none;
-  outline: none;
-}
-table {border-collapse: collapse;}
-
-html {
-  font-family: 'Noto Sans KR';
-  font-size: 16px;
-}
-
 .profile-content > ol, ul {
   padding: 0%;
-}
-/*  */
-
-nav > .container-fluid {
-  width: 1280px;
-}
-
-.navbar-brand > img {
-  height: 48px;
-}
-
-/* main */
-main {
-  width: 1280px;
-  margin: 0 auto;
 }
 
 
@@ -55,13 +20,6 @@ h1 {
   background-color: #f8f8f8;
   border-radius: 16px;
 }
-
-.list > ul {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
 
 .profile {
     width: 520px;
