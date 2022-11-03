@@ -150,7 +150,7 @@ graph TD
 
 # 팀원들이 뽑은 가장 마음에 드는 코드
 
-`하나`
+#### `하나`
 ```js
 $(document).ready(() => {
         pageLoading();
@@ -191,6 +191,9 @@ $(document).ready(() => {
 > 
 > 저도 팀원들처럼 잘 하고 싶은 마음이 솟았던 코드입니다 :>
 
+<br>
+
+#### `유진`
 ```js
 function 물주먹() {
     window.open('https://github.com/waterfist', '_blank');
@@ -210,10 +213,11 @@ function 박유진() {
 /></a>
 ```
 
-`유진`
 > 92번 줄은 "새로운 창이 열려요."라는 말이다. 깃허브와 벨로그를 누르면 해당 사이트로 이동한다. 현재 창에서 바로 깃허브로 가는 것이 아니다. 새로운 창을 열어 깃허브로 연결해준다. 이 코드가 마음에 드는 이유는 편리성 때문이다. 대원들의 페이지가 궁금한데 다시 돌아가기 눌러서 새로고침이 되는 것보다 창을 닫는 게 빠르기 때문이다. 213번 줄과 연관이 된다. 물주먹, 박유진은 92번의 물주먹, 박유진이다.
 
-`정익`
+<br>
+
+#### `정익`
 ```js
 function editCommentSubmit() {
   let name = $('.modal-name').val();
@@ -234,7 +238,9 @@ function editCommentSubmit() {
 > 아쉬운 점도 많이 남는 코드라 다음에 리팩토링에 도전에 보려 합니다.
 > `let` → `const`로 변경, `name`과 `text` 변수의 유효성 검사 등 추가 해 보고 싶은 로직이 많아요!
 
-`상현`
+<br>
+
+#### `상현`
 ```js
 success: function (response) {
 let rows = response.comments;
