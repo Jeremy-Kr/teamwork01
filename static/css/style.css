@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+/* CSS RESET */
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+a {text-decoration: none;}
+li {list-style: none;}
+  input {
+  appearance: none;
+  outline: none;
+}
+table {border-collapse: collapse;}
+
+html {
+  font-family: 'Noto Sans KR';
+  font-size: 16px;
+}
+
+.profile-content > ol, ul {
+  padding: 0%;
+}
+/*  */
+
+nav > .container-fluid {
+  width: 1280px;
+}
+
+.navbar-brand > img {
+  height: 48px;
+}
+
+/* main */
+main {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 72px;
+    margin: 0 0 32px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 48px 64px;
+  margin: 72px 0;
+  background-color: #f8f8f8;
+  border-radius: 16px;
+}
+
+.list > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+.profile {
+    width: 520px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    row-gap: 24px;
+    flex-wrap: wrap;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.profile-card > img {
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+}
