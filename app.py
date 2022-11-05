@@ -9,7 +9,7 @@ from pymongo import MongoClient
 from bson.objectid import ObjectId
 import certifi
 ca = certifi.where()
-client = MongoClient('mongodb+srv://admin:adminshow@cluster0.3luh09a.mongodb.net/?retryWrites=true&w=majority', tlsCAFile=ca)
+client = MongoClient('mongodb+srv://test:test@cluster0.a11ftbr.mongodb.net/?retryWrites=true&w=majority', tlsCAFile=ca)
 db = client.db
 
 @app.route('/')
